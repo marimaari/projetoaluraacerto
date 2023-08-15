@@ -1,127 +1,113 @@
  :root {
- -branco-principal: #FFFFFF; -cinza-accundario: #COCOCO;
+     -branco-principal: #FFFFFF;
+     -cinza-accundario: #COCOCO;
 
-botao-azul: #167BF7;
+     botao-azul: #167BF7;
 
--cor-de-fundo: #00030C;
+     -cor-de-fundo: #00030C;
 
--fonte-principal: 'Inter; --botao-azul-efeito: #3c92fa;
+     -fonte-principal: 'Inter; --botao-azul-efeito: #3c92fa;
+
  }
 
 
 
-body {
+ body {
 
-background-color: var(--cor-de-fundo);
+     background-color: var(--cor-de-fundo);
 
-color: varf-branco-principal);
+     color: varf-branco-principal);
 
-font-family: var(--fonte-principal);
+     font-family: var(--fonte-principal);
 
-font-size: 16px;
+     font-size: 16px;
 
-font-weight: 400;
+     font-weight: 400;
 
-}
+ }
 
-* { 
-    
-margin: 0;
+ * {
 
-padding: 0;
+     margin: 0;
 
--principal (
+     padding: 0;
 
-background-image: url('img/Background.png"); background-size: contain;
+     principal {
 
-background-repeat: no-repeat;
+         background-image: url('img/Background.png"); background-size: contain;
 
-align-items: center;
+                 background-repeat: no-repeat;
 
-text-align: center;
+                 align-items: center;
 
-.container (
+                 text-align: center;
 
-height: 100vh; display: grid;
+         }
 
-grid-template-columns: 50% 50%; }
+         .container {
 
-container_botao (
+             height: 100vh;
+             display: grid;
 
-border-radius: 5px;
+             grid-template-columns: 50% 50%;
 
-background-color: var(-botao-azul); margin-bottom: 1em;
+         }
 
-padding: 1em; color: var(--branco-principal);
 
-display: block; text-decoration: none;
+         container_botao {
 
-botao secundario (
 
-background-color: transparent; border: 2px solid var(--branco-principal)
+             background-color: var(-botao-azul);
+             border-radius: 5px;
+             margin-bottom: 1em;
 
-container_aviso (
+             padding: 1em; color: var(--branco-principal);
 
-font-size: 12px; color: var(-cinza-secundario);
+             display: block; text-decoration: none;
 
-.container_titulo (
+             botao secundario (background-color: transparent; border: 2px solid var(--branco-principal) container_aviso (font-size: 12px; color: var(-cinza-secundario);
 
-font-size: 28px;
+                     .container_titulo (font-size: 28px;
 
-font-weight: 700;
+                         font-weight: 700;
 
-.container_imagem [ margin: 1em 0 2em 0;
+                         .container_imagem [ margin: 1em 0 2em 0;
 
-.container_caixa (
+                         .container_caixa (margin: 0 6em;
 
-margin: 0 6em;
+                             secundario_imagem (width: 80%;
 
-secundario_imagem ( width: 80%;
+                                 .secundario (align-items: center; margin: 0 10em;
 
-.secundario (
+                                     descricao_titulo (font-weight: 700;
 
-align-items: center; margin: 0 10em;
+                                         font-size: 48px; color: var(-branco-principal);
 
-descricao_titulo (
+                                         margin-bottom: 0.1em;
 
-font-weight: 700;
+                                         descricao_texto (color: var(--cinza-secundario);
 
-font-size: 48px; color: var(-branco-principal);
+                                             secundario_botao (display: inline-block;
 
-margin-bottom: 0.1em;
+                                                 margin-top: 1em;
 
-descricao_texto ( color: var(--cinza-secundario);
+                                                 container_descricao (padding: 2em;
 
-secundario_botao (
+                                                     1 dispositivos lista (display: flex;
 
-display: inline-block;
+                                                         justify-content: center; list-style-type: none;
 
-margin-top: 1em;
+                                                         margin: 5em 0;
 
-container_descricao ( padding: 2em;
+                                                         .dispositivos (
+                                                         }
 
-1
+                                                         text-align: center;
 
-dispositivos lista (
+                                                         dispositivos titulo {
 
-display: flex;
+                                                             font-size: 48px;
 
-justify-content: center; list-style-type: none;
+                                                             color: var(--branco-principal);
 
-margin: 5em 0;
-
-.dispositivos (
-
-}
-
-text-align: center;
-
-dispositivos titulo {
-
-font-size: 48px;
-
-color: var(--branco-principal);
-
-lista item (
-
-font-size: 32px; color: var(-branco-principal);
+                                                             lista item (font-size: 32px; color: var(-branco-principal);
